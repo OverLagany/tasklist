@@ -3,7 +3,7 @@
 This is a fork of a kolab/tasklist roundcube plugin aimed to work with JodliDev/calendar, roundcube calendar that supports CalDAV.
 Basically this fork just updates dependencies of the original plugin
 
-# INSTALLATION
+# Instalation
 ```
 cd /pathTo/roundcubemail
 
@@ -13,7 +13,7 @@ composer require kolab/tasklist
 bin/initdb.sh --dir=plugins/tasklist/drivers/database/SQL
 ```
 
-# IMPORTANT
+# Important
 
 This plugin doesn't work with the Classic skin of Roundcube because no
 templates are available for that skin.
